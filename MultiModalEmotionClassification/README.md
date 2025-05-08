@@ -74,13 +74,13 @@ Try attention-based fusion or multimodal transformers.
 
 
 ## File Structure
-- MEC-ConvertDataToSpectrTranscripts.ipynb: Converts the audio signals to Spectrograms and Transcripts.
-- MEC-ExtractMFCCs.ipynb: Converts the audio to MFCCs.
-- MEC-CNNSpectrogramClassification.ipynb: Applies CNNs on the Spectrograms. Also includes the ResNet implementation.
-- MEC-RNNTranscriptClassification.ipynb: Tries using an RNN on the transcripts.
-- MEC-CNN_MFCC_Classification.ipynb: Applies CNNs on the MFCCs
-- MEC-MultiModal.ipynb: Uses both Spectrograms and MFCCs
-- MEC-EnsembleMethod.ipynb: Uses both Spectrograms and MFCCs and averages the outputs to make the final decision
+- 1-MEC-ConvertDataToSpectrTranscripts.ipynb: Converts the audio signals to Spectrograms and Transcripts.
+- 2-MEC-ExtractMFCCs.ipynb: Converts the audio to MFCCs.
+- 3-MEC-CNNSpectrogramClassification.ipynb: Applies CNNs on the Spectrograms. Also includes the ResNet implementation.
+- 4-MEC-RNNTranscriptClassification.ipynb: Tries using an RNN on the transcripts.
+- 5-MEC-CNN_MFCC_Classification.ipynb: Applies CNNs on the MFCCs
+- 6-MEC-MultiModal.ipynb: Uses both Spectrograms and MFCCs
+- 7-MEC-EnsembleMethod.ipynb: Uses both Spectrograms and MFCCs and averages the outputs to make the final decision
 - requirements.txt
 - README.md
 
